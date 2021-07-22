@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-title {
+  display: inline-block;
+  margin: 10px;
+  padding: 0;
+  color: blue;
+}
+
+ul.header-navigation {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.link {
+  text-decoration: none;
+  color: blue;
+  font-weight: bolder;
+}
+.content {
+  width: 100%;
+  margin-top: 300px;
+}
+img {
+  float: right;
+  width: 50%;
+}
+.text-content {
+  font-size: 64px;
+  margin: 0;
+}
+.under-object {
+  width: 80%;
+  height: 150px;
+  background: blue;
+}
